@@ -1,0 +1,32 @@
+id: 600
+nickname: ''
+badge_name: ''        
+badge_color: ''        
+role: NtfPrivate
+role_appearance: NtfPrivate
+team: ChaosInsurgency
+health:
+  amount: 150
+  maximum: 150
+inventory:
+- GunE11SR
+- KeycardMTFPrivate
+- Medkit
+- ArmorCombat
+- Radio
+spawn_broadcast: 'Вы - Предатель МОГ! Уничтожьте Фонд изнутри.'
+spawn_broadcast_duration: 5
+can_escape: true
+role_after_escape:
+  default: InternalRole Spectator
+spawn_settings:
+  spawn: RoleSpawn
+  spawn_roles:
+  - NtfPrivate
+  - NtfSergeant
+  - NtfCaptain
+  spawn_chance: 35
+  can_replace_roles:
+  - NtfPrivate
+  - NtfSergeant
+  - NtfCaptain

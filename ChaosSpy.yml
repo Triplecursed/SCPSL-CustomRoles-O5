@@ -1,0 +1,16 @@
+id: 100
+name: 'Шпион Хаоса'
+role: ClassD
+team: ChaosInsurgency
+health:
+  amount: 120
+  maximum: 120
+inventory:
+- KeycardJanitor
+- GunCOM15
+- Medkit
+spawn_broadcast: 'Вы - Шпион Хаоса! Притворяйтесь D-классом и помогите своим.'
+spawn_broadcast_duration: 5
+can_escape: true
+role_after_escape:
+  default: InternalRole Spectator

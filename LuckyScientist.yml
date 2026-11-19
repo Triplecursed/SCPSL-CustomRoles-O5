@@ -1,0 +1,21 @@
+id: 810
+name: 'Ученый-Счастливчик'
+role: Scientist
+role_appearance: Scientist
+health:
+  amount: 100
+  maximum: 100
+inventory:
+- KeycardO5
+- Medkit
+- Radio
+- Flashlight
+spawn_broadcast: 'Вам повезло! У вас карта О5!'
+spawn_broadcast_duration: 5
+spawn_settings:
+  spawn: RoleSpawn
+  spawn_roles:
+  - Scientist
+  spawn_chance: 28
+  can_replace_roles:
+  - Scientist

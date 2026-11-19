@@ -1,0 +1,25 @@
+id: 101
+name: 'Помощник SCP'
+role: Scientist
+role_appearance: Scientist
+team: ChaosInsurgency
+health:
+  amount: 200
+  maximum: 200
+inventory:
+- GunE11SR
+- KeycardChaosInsurgency
+- Medkit
+- ArmorCombat
+- Radio
+spawn_broadcast: 'Вы - Помощник SCP! Уничтожьте всех.'
+spawn_broadcast_duration: 5
+spawn_settings:
+  spawn: RoleSpawn
+  spawn_roles:
+  - ChaosConscript
+  spawn_chance: 30
+  can_replace_roles:
+  - ClassD
+custom_flags:
+- PacifismUntilDamage

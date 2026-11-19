@@ -1,0 +1,25 @@
+id: 4000
+name: 'Длань Змеи'
+role: ClassD
+role_appearance: ClassD
+team: ChaosInsurgency
+health:
+  amount: 150
+  maximum: 150
+inventory:
+- GunCrossvec
+- Medkit
+- Adrenaline
+- ArmorCombat
+- KeycardChaosInsurgency
+spawn_broadcast: 'Вы - Длань Змеи! Уничтожьте всех.'
+spawn_broadcast_duration: 5
+spawn_settings:
+  spawn: RoleSpawn
+  spawn_roles:
+  - ChaosConscript
+  spawn_chance: 45
+  can_replace_roles:
+  - ClassD
+custom_flags:
+- PacifismUntilDamage
